@@ -9,6 +9,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_PACKAGE_NAME := FileManager
 LOCAL_CERTIFICATE := platform
+LOCAL_SHARED_LIBRARIES := access
 
 include $(BUILD_PACKAGE)
 
